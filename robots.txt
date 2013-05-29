@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://divyakarwal.github.io/sitemap.xml 
