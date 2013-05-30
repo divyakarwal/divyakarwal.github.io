@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "new blog"
-date: 2013-05-30 15:36
+
+date: 2013-05-30 15:53
 comments: true
-categories:[one,two] 
+categories: 
 ---
-hello!! finally i am writting something.
+how to write content in a blog , i dont know please some body help me.
