@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-05-30T15:05:57+05:30</updated>
+  <updated>2013-05-30T15:57:20+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[new blog]]></title>
+    <link href="http://divyakarwal.github.io/blog/2013/05/30/new-blog/"/>
+    <updated>2013-05-30T15:53:00+05:30</updated>
+    <id>http://divyakarwal.github.io/blog/2013/05/30/new-blog</id>
+    <content type="html"><![CDATA[<p>how to write content in a blog , i dont know please some body help me.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Its Blog]]></title>
