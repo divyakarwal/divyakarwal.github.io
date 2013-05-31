@@ -1,0 +1,4 @@
+git submodule add git://github.com/octothemes/budget-bumbago.git .themes/budget-bumbago-v0.1.0
+git add .themes
+git commit -m "added budget-bumbago v0.1.0 theme"
+
