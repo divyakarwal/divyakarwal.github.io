@@ -1,7 +1,0 @@
----
-layout: post
-title: "Its Blog"
-date: 2013-05-30 14:57
-comments: true
-categories: 
----
