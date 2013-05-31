@@ -2,24 +2,24 @@ $noise-bg: image-url('noise.png') top left !default;
 $img-border: inline-image('dotted-border.png');
 
 // Main Link Colors
-$link-color: lighten(#FFEBCD, 3) !default;
+$link-color: lighten(#165b94, 3) !default;
 $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
 $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #FAEBD7!default;
-$page-bg: #A52A2A !default;
-$article-border: ##FFEBCD !default;
+$main-bg: #f8f8f8 !default;
+$page-bg: #252525 !default;
+$article-border: #eeeeee !default;
 
 $header-bg: #333 !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: #E9967A !default;
-$subtitle-color: #B22222 !default;
+$title-color: #f2f2f2 !default;
+$subtitle-color: #aaa !default;
 
-$text-color: #A52A2A !default;
-$text-color-light: #FFE4C4 !default;
-$type-border: ##FFEBCD !default;
+$text-color: #222 !default;
+$text-color-light: #aaa !default;
+$type-border: #ddd !default;
 
 /* Navigation */
 $nav-bg: #ccc !default;
