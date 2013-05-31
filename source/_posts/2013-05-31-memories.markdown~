@@ -6,5 +6,5 @@ comments: true
 categories: 
 ---
 Here I am presenting this video which i made with the help of my friend Geet, On the ocassion of  our graduation farewell..
-{% video http://www.youtube.com/watch?v=7QiEipCUxic 640 320  %}
+{% video http://www.youtube.com/watch?v=7QiEipCUxic 50 50 %}
 
