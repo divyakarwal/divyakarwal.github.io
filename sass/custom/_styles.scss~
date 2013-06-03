@@ -6,10 +6,10 @@ $heading-font-family: "Lemon", cursive;
 $header-title-font-family: "Futura", sans-serif;
 $header-subtitle-font-family: "Mrs Sheppards", cursive;
 
-$header-bg:#800000;
-$subtitle-color: lighten($header-bg, 58);
-$nav-bg: desaturate(lighten( #FFE4C4, 18), 5);
-$sidebar-bg: desaturate(#FFFAF0, 8);
-$sidebar-link-color: saturate(#8B0000, 10);
-$sidebar-link-color-hover: darken(#E9967A, 9);
-$footer-bg:#800000 //#ccc //!default;
+$header-bg:#800080;
+$subtitle-color: #DDA0DD;//lighten($header-bg, 58);
+$nav-bg:#FF00FF;// desaturate(lighten( #FFE4C4, 18), 5);
+$sidebar-bg:#9370DB;// desaturate(#FFFAF0, 8);
+$sidebar-link-color: #0000CD;//saturate(#8B0000, 10);
+$sidebar-link-color-hover: #FF00FF;// darken(#E9967A, 9);
+$footer-bg:#800080; //#ccc //!default;
