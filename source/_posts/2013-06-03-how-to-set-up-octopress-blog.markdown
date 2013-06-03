@@ -6,15 +6,15 @@ comments: true
 categories: 
 ---
 First of all sign up on github
-1. click on "create a new repo" icon on right hand side upper corner.
-2. write your user_name.github.io in the field "Repository name"
-3. click on green color button "Create repository"
-4. now scroll down and click on button "automatic page generator"
-5. click on "continue to layouts"
-6. last step is to publish your page by clicking on button named as "publish"
-
-To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
-
+>click on "create a new repo" icon on right hand side upper corner.
+>write your user_name.github.io in the field "Repository name"
+>click on green color button "Create repository"
+>now scroll down and click on button "automatic page generator"
+>click on "continue to layouts"
+>last step is to publish your page by clicking on button named as "publish"
+>
+>To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
+>
 >Install git.
 >	
 >	{% codeblock %}
@@ -30,7 +30,7 @@ To set-up a blog on octopress if You are using Linux platform then you need to f
 >{% codeblock %}
 >	wget --no-check-certificate https://raw.github.com/joshfng/railsready/master/railsready.sh && bash railsready.sh
 >{%endcodeblock %}
-3. Now you have installed RVM, the next task is to install Ruby1.9.3
+> Now you have installed RVM, the next task is to install Ruby1.9.3
 {% codeblock %}	
 	rvm install 1.9.3
 	rvm use 1.9.3
