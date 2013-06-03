@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://divyakarwal.github.io/blog/2013/05/30/first-blog/</loc>
-        <lastmod>2013-06-03T16:03:32+05:30</lastmod>
+        <lastmod>2013-06-03T16:08:55+05:30</lastmod>
     </url>
     <url>
         <loc>http://divyakarwal.github.io/blog/2013/05/30/new-blog/</loc>
@@ -18,15 +18,11 @@
     </url>
     <url>
         <loc>http://divyakarwal.github.io/</loc>
-        <lastmod>2013-06-03T16:03:32+05:30</lastmod>
+        <lastmod>2013-06-03T16:08:55+05:30</lastmod>
     </url>
     <url>
         <loc>http://divyakarwal.github.io/robots.txt</loc>
         <lastmod>2013-05-30T17:42:31+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://divyakarwal.github.io/new-page/</loc>
-        <lastmod>2013-06-03T15:21:34+05:30</lastmod>
     </url>
     <url>
         <loc>http://divyakarwal.github.io/about/</loc>
@@ -34,6 +30,6 @@
     </url>
     <url>
         <loc>http://divyakarwal.github.io/blog/archives/</loc>
-        <lastmod>2013-06-03T16:03:32+05:30</lastmod>
+        <lastmod>2013-06-03T16:08:55+05:30</lastmod>
     </url>
 </urlset>
