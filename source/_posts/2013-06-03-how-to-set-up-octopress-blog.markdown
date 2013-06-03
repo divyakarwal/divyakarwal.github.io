@@ -5,7 +5,7 @@ date: 2013-06-03 11:43
 comments: true
 categories: 
 ---
-#First of all sign up on github
+**First of all sign up on github**
 * Click on "create a new repo" icon on right hand side upper corner.
 * Write your user_name.github.io in the field "Repository name"
 * Click on green color button "Create repository"
@@ -13,7 +13,7 @@ categories:
 * Click on "continue to layouts"
 * Last step is to publish your page by clicking on button named as "publish"
 
-#To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
+**To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:**
 
 * Install git.
 >	
