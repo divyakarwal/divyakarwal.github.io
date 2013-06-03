@@ -6,4 +6,4 @@ comments: true
 categories:
 ---
 {% img http://placekitten.com/890/280 %}
-{% img file:///1.jpg/890/280 %}
+{% img file:///_posts/1.jpg/890/280 %}
