@@ -4,7 +4,7 @@
   <title><![CDATA[Divya's Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-06-03T13:41:53+05:30</updated>
+  <updated>2013-06-03T13:52:22+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Divya Karwal]]></name>
@@ -18,23 +18,26 @@
     <link href="http://divyakarwal.github.io/blog/2013/06/03/how-to-set-up-octopress-blog/"/>
     <updated>2013-06-03T11:43:00+05:30</updated>
     <id>http://divyakarwal.github.io/blog/2013/06/03/how-to-set-up-octopress-blog</id>
-    <content type="html"><![CDATA[<p>First of all sign up on github</p>
+    <content type="html"><![CDATA[<h1>First of all sign up on github</h1>
 
-<blockquote><h1>Click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.</h1>
+<ul>
+<li>Click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.</li>
+<li>Write your user_name.github.io in the field &ldquo;Repository name&rdquo;</li>
+<li>Click on green color button &ldquo;Create repository&rdquo;</li>
+<li>Now scroll down and click on button &ldquo;automatic page generator&rdquo;</li>
+<li>Click on &ldquo;continue to layouts&rdquo;</li>
+<li>Last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</li>
+</ul>
 
-<h1>Write your user_name.github.io in the field &ldquo;Repository name&rdquo;</h1>
 
-<h1>Click on green color button &ldquo;Create repository&rdquo;</h1>
+<h1>To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:</h1>
 
-<h1>Now scroll down and click on button &ldquo;automatic page generator&rdquo;</h1>
+<ul>
+<li>Install git.
 
-<h1>Click on &ldquo;continue to layouts&rdquo;</h1>
+<blockquote></blockquote></li>
+</ul>
 
-<h1>Last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</h1></blockquote>
-
-<p>To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:</p>
-
-<blockquote><p>Install git.</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -46,7 +49,12 @@
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>Install Ruby1.9.3 with RVM.</p></blockquote>
+<ul>
+<li>Install Ruby1.9.3 with RVM.
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -54,7 +62,12 @@
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>If by any chance this command wont work then run the following one.</p></blockquote>
+<ul>
+<li>If by any chance this command wont work then run the following one.
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -62,7 +75,12 @@
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>Now you have installed RVM, the next task is to install Ruby1.9.3</p></blockquote>
+<ul>
+<li>Now you have installed RVM, the next task is to install Ruby1.9.3
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -74,7 +92,12 @@
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>To check the version of Ruby, run this command</p></blockquote>
+<ul>
+<li>To check the version of Ruby, run this command
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -82,8 +105,13 @@
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>If it doesnt show Ruby 1.9.3, then again repeat the step 2 and 3.
-Install dependencies</p></blockquote>
+<ul>
+<li>If it doesnt show Ruby 1.9.3, then again install RVM.</li>
+<li>Install dependencies
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -97,7 +125,12 @@ Install dependencies</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>Deploying to Github Pages</p></blockquote>
+<ul>
+<li>Deploying to Github Pages
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -105,7 +138,12 @@ Install dependencies</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>This will Ask you for your Github Pages repository url.</p></blockquote>
+<ul>
+<li>This will Ask you for your Github Pages repository url.
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -121,7 +159,12 @@ Install dependencies</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>Generating ssh key</p></blockquote>
+<ul>
+<li>Generating ssh key
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -131,12 +174,17 @@ Install dependencies</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>Add your ssh key to github
-  a) Open your github account
-  b) Go to Account Settings
-  c) Click &ldquo;SSH Keys&rdquo; on left navigation bar.
-  d) Click on &ldquo;Add Key&rdquo;
-  f) Now go back to your Terminal, go to Directory &ldquo;.ssh&rdquo;</p></blockquote>
+<ul>
+<li>Add your ssh key to github</li>
+<li>a) Open your github account</li>
+<li>b) Go to Account Settings</li>
+<li>c) Click &ldquo;SSH Keys&rdquo; on left navigation bar.</li>
+<li>d) Click on &ldquo;Add Key&rdquo;</li>
+<li>f) Now go back to your Terminal, go to Directory &ldquo;.ssh&rdquo;
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -144,7 +192,12 @@ Install dependencies</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>  g) Open &ldquo;id_rsa.pub&rdquo; with text editor.</p></blockquote>
+<ul>
+<li>g) Open &ldquo;id_rsa.pub&rdquo; with text editor.
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -152,8 +205,13 @@ Install dependencies</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>  h) copy the content of the file and paste it in the big box named as &ldquo;key&rdquo; on your github account.
-Test the key</p></blockquote>
+<ul>
+<li>h) copy the content of the file and paste it in the big box named as &ldquo;key&rdquo; on your github account.</li>
+<li>Test the key
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -161,7 +219,9 @@ Test the key</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>if you get any prob in future regarding ssh key, like permission denied(public key), then run</p></blockquote>
+<p>*if you get any prob in future regarding ssh key, like permission denied(public key), then run</p>
+
+<blockquote></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -169,7 +229,12 @@ Test the key</p></blockquote>
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>Setting up Blog</p></blockquote>
+<ul>
+<li>Setting up Blog
+
+<blockquote></blockquote></li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
