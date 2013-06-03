@@ -6,12 +6,12 @@ comments: true
 categories: 
 ---
 First of all sign up on github
-a) click on "create a new repo" icon on right hand side upper corner.
-b) write your user_name.github.io in the field "Repository name"
-c) click on green color button "Create repository"
-d) now scroll down and click on button "automatic page generator"
-e) click on "continue to layouts"
-f) last step is to publish your page by clicking on button named as "publish"
+1. click on "create a new repo" icon on right hand side upper corner.
+2. write your user_name.github.io in the field "Repository name"
+3. click on green color button "Create repository"
+4. now scroll down and click on button "automatic page generator"
+5. click on "continue to layouts"
+6. last step is to publish your page by clicking on button named as "publish"
 
 To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
 

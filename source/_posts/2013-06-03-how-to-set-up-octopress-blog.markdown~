@@ -5,9 +5,20 @@ date: 2013-06-03 11:43
 comments: true
 categories: 
 ---
+First of all sign up on github
+a) click on "create a new repo" icon on right hand side upper corner.
+b) write your user_name.github.io in the field "Repository name"
+c) click on green color button "Create repository"
+d) now scroll down and click on button "automatic page generator"
+e) click on "continue to layouts"
+f) last step is to publish your page by clicking on button named as "publish"
+
 To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
+
 1. Install git.
 	sudo apt-get install git
+	git config --global user.name"your_user_name"
+	git config --global user.email"your_email_id"
 2. Install Ruby1.9.3 with RVM.
 	curl -L https://get.rvm.io | bash -s stable --ruby
 If by any chance this command wont work then run the following one.
@@ -49,7 +60,23 @@ This will Ask you for your Github Pages repository url.
 	ssh -T git@github.com
 if you get any prob in future regarding ssh key, like permission denied(public key), then run
 	add-ssh
-
+9. Setting up Blog
+	git init
+	rake deploy
+	rake generate
+	rake preview
+	git add .
+	git remote show origin
+	git remote show octopress
+	git remote rm octopress
+	git remote rm origin
+	git remote add origin git@github.com:your_user_name/your_user_name.github.io.git
+	git remote -v
+	git pull origin source
+	git add .
+	git commit -m "comment"
+	git push origin source
+	rake deploy
 	
 
 
