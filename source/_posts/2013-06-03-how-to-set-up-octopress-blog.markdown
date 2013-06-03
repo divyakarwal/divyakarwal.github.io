@@ -15,21 +15,21 @@ First of all sign up on github
 
 To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
 
-1. Install git.
-	
-	{% codeblock %}
-	sudo apt-get install git
-	git config --global user.name"your_user_name"
-	git config --global user.email"your_email_id"
-	{%endcodeblock %}
-2. Install Ruby1.9.3 with RVM.
-	{% codeblock %}
-	curl -L https://get.rvm.io | bash -s stable --ruby
-{%endcodeblock %}
-If by any chance this command wont work then run the following one.
-{% codeblock %}
-	wget --no-check-certificate https://raw.github.com/joshfng/railsready/master/railsready.sh && bash railsready.sh
-{%endcodeblock %}
+>Install git.
+>	
+>	{% codeblock %}
+>	sudo apt-get install git
+>	git config --global user.name"your_user_name"
+>	git config --global user.email"your_email_id"
+>	{%endcodeblock %}
+> Install Ruby1.9.3 with RVM.
+>	{% codeblock %}
+>	curl -L https://get.rvm.io | bash -s stable --ruby
+>{%endcodeblock %}
+>If by any chance this command wont work then run the following one.
+>{% codeblock %}
+>	wget --no-check-certificate https://raw.github.com/joshfng/railsready/master/railsready.sh && bash railsready.sh
+>{%endcodeblock %}
 3. Now you have installed RVM, the next task is to install Ruby1.9.3
 {% codeblock %}	
 	rvm install 1.9.3

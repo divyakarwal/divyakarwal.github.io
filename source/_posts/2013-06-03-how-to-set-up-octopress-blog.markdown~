@@ -15,13 +15,13 @@ First of all sign up on github
 
 To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
 
-1. Install git.
-	
-	{% codeblock %}
-	sudo apt-get install git
-	git config --global user.name"your_user_name"
-	git config --global user.email"your_email_id"
-	{%endcodeblock %}
+>Install git.
+>	
+>	{% codeblock %}
+>	sudo apt-get install git
+>	git config --global user.name"your_user_name"
+>	git config --global user.email"your_email_id"
+>	{%endcodeblock %}
 2. Install Ruby1.9.3 with RVM.
 	{% codeblock %}
 	curl -L https://get.rvm.io | bash -s stable --ruby
@@ -72,11 +72,11 @@ This will Ask you for your Github Pages repository url.
 	d) Click on "Add Key"
 	f) Now go back to your Terminal, go to Directory ".ssh"
 {% codeblock %}
-		cd .ssh
+cd .ssh
 {%endcodeblock %}
 	g) Open "id_rsa.pub" with text editor.
 {% codeblock %}
-		gedit id_rsa.pub
+gedit id_rsa.pub
 {%endcodeblock %}
 	h) copy the content of the file and paste it in the big box named as "key" on your github account.
 8. Test the key
