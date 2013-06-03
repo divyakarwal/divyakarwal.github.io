@@ -4,7 +4,7 @@
   <title><![CDATA[Divya's Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-06-03T16:27:20+05:30</updated>
+  <updated>2013-06-03T16:41:01+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Divya Karwal]]></name>
@@ -18,19 +18,15 @@
     <link href="http://divyakarwal.github.io/blog/2013/06/03/how-to-set-up-octopress-blog/"/>
     <updated>2013-06-03T11:43:00+05:30</updated>
     <id>http://divyakarwal.github.io/blog/2013/06/03/how-to-set-up-octopress-blog</id>
-    <content type="html"><![CDATA[<h1>First of all sign up on github</h1>
+    <content type="html"><![CDATA[<p><strong>First of all sign up on github</strong>
+* Click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.
+* Write your user_name.github.io in the field &ldquo;Repository name&rdquo;
+* Click on green color button &ldquo;Create repository&rdquo;
+* Now scroll down and click on button &ldquo;automatic page generator&rdquo;
+* Click on &ldquo;continue to layouts&rdquo;
+* Last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</p>
 
-<ul>
-<li>Click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.</li>
-<li>Write your user_name.github.io in the field &ldquo;Repository name&rdquo;</li>
-<li>Click on green color button &ldquo;Create repository&rdquo;</li>
-<li>Now scroll down and click on button &ldquo;automatic page generator&rdquo;</li>
-<li>Click on &ldquo;continue to layouts&rdquo;</li>
-<li>Last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</li>
-</ul>
-
-
-<h1>To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:</h1>
+<p><strong>To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:</strong></p>
 
 <ul>
 <li>Install git.
@@ -300,8 +296,9 @@
     <link href="http://divyakarwal.github.io/blog/2013/05/30/first-blog/"/>
     <updated>2013-05-30T11:55:00+05:30</updated>
     <id>http://divyakarwal.github.io/blog/2013/05/30/first-blog</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://placekitten.com/300/280">
-<img class="left" src="file:///source/_posts/1.jpg/300/280"></p>
+    <content type="html"><![CDATA[<p><img src="http://placekitten.com/300/280"></p>
+
+<p><img class="left" src="file:///1.jpg/300/280"></p>
 ]]></content>
   </entry>
   
