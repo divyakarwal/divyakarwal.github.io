@@ -72,11 +72,11 @@ This will Ask you for your Github Pages repository url.
 	d) Click on "Add Key"
 	f) Now go back to your Terminal, go to Directory ".ssh"
 {% codeblock %}
-		cd .ssh
+cd .ssh
 {%endcodeblock %}
 	g) Open "id_rsa.pub" with text editor.
 {% codeblock %}
-		gedit id_rsa.pub
+gedit id_rsa.pub
 {%endcodeblock %}
 	h) copy the content of the file and paste it in the big box named as "key" on your github account.
 8. Test the key

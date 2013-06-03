@@ -16,51 +16,79 @@ First of all sign up on github
 To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:
 
 1. Install git.
+	
+	{% codeblock %}
 	sudo apt-get install git
 	git config --global user.name"your_user_name"
 	git config --global user.email"your_email_id"
+	{%endcodeblock %}
 2. Install Ruby1.9.3 with RVM.
+	{% codeblock %}
 	curl -L https://get.rvm.io | bash -s stable --ruby
+{%endcodeblock %}
 If by any chance this command wont work then run the following one.
+{% codeblock %}
 	wget --no-check-certificate https://raw.github.com/joshfng/railsready/master/railsready.sh && bash railsready.sh
+{%endcodeblock %}
 3. Now you have installed RVM, the next task is to install Ruby1.9.3
+{% codeblock %}	
 	rvm install 1.9.3
 	rvm use 1.9.3
 	rvm rubygems latest
+{%endcodeblock %}
 To check the version of Ruby, run this command
+{% codeblock %}
 	ruby --version
+{%endcodeblock %}
 If it doesnt show Ruby 1.9.3, then again repeat the step 2 and 3.
 4. Install dependencies
+{% codeblock %}
 	gem install bundler
 	rbenv rehash
 	bundle install
 	rake install
+{%endcodeblock %}
 5. Deploying to Github Pages
+{% codeblock %}
 	rake setup_github_pages
+{%endcodeblock %}
 This will Ask you for your Github Pages repository url.
+{% codeblock %}
 	rake generate
 	rake deploy
 	git add .
 	git commit -m 'your message'
 	git push origin source
+{%endcodeblock %}
 6. Generating ssh key
+{% codeblock %}
 	cd ~/.ssh
 	ssh-keygen -t rsa -C "your_email@example.com"
+{%endcodeblock %}
 7. Add your ssh key to github
 	a) Open your github account
 	b) Go to Account Settings
 	c) Click "SSH Keys" on left navigation bar.
 	d) Click on "Add Key"
 	f) Now go back to your Terminal, go to Directory ".ssh"
+{% codeblock %}
 		cd .ssh
+{%endcodeblock %}
 	g) Open "id_rsa.pub" with text editor.
+{% codeblock %}
 		gedit id_rsa.pub
+{%endcodeblock %}
 	h) copy the content of the file and paste it in the big box named as "key" on your github account.
 8. Test the key
+{% codeblock %}
 	ssh -T git@github.com
+{%endcodeblock %}
 if you get any prob in future regarding ssh key, like permission denied(public key), then run
+{% codeblock %}
 	add-ssh
+{%endcodeblock %}
 9. Setting up Blog
+{% codeblock %}
 	git init
 	rake deploy
 	rake generate
@@ -77,7 +105,7 @@ if you get any prob in future regarding ssh key, like permission denied(public k
 	git commit -m "comment"
 	git push origin source
 	rake deploy
-	
+{%endcodeblock %}	
 
 
 
