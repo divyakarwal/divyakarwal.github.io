@@ -9,8 +9,7 @@
   <meta name="author" content="Divya Karwal">
 
   
-  <meta name="description" content="First of all sign up on github click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.
-write your user_name.github.io in the &hellip;">
+  <meta name="description" content="First of all sign up on github Click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner. Write your user_name.github.io in the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -96,16 +95,21 @@ write your user_name.github.io in the &hellip;">
 
 <div class="entry-content"><p>First of all sign up on github</p>
 
-<blockquote><p>click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.
-write your user_name.github.io in the field &ldquo;Repository name&rdquo;
-click on green color button &ldquo;Create repository&rdquo;
-now scroll down and click on button &ldquo;automatic page generator&rdquo;
-click on &ldquo;continue to layouts&rdquo;
-last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</p>
+<blockquote><h1>Click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.</h1>
+
+<h1>Write your user_name.github.io in the field &ldquo;Repository name&rdquo;</h1>
+
+<h1>Click on green color button &ldquo;Create repository&rdquo;</h1>
+
+<h1>Now scroll down and click on button &ldquo;automatic page generator&rdquo;</h1>
+
+<h1>Click on &ldquo;continue to layouts&rdquo;</h1>
+
+<h1>Last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</h1></blockquote>
 
 <p>To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:</p>
 
-<p>Install git.</p></blockquote>
+<blockquote><p>Install git.</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -138,107 +142,109 @@ last step is to publish your page by clicking on button named as &ldquo;publish&
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rvm install 1.9.3
-</span><span class='line'>  rvm use 1.9.3
-</span><span class='line'>  rvm rubygems latest</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    rvm install 1.9.3
+</span><span class='line'>> rvm use 1.9.3
+</span><span class='line'>> rvm rubygems latest
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<p>To check the version of Ruby, run this command</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ruby --version</span></code></pre></td></tr></table></div></figure>
-
-
-<p>If it doesnt show Ruby 1.9.3, then again repeat the step 2 and 3.
-4. Install dependencies</p>
+<blockquote><p>To check the version of Ruby, run this command</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>gem install bundler
-</span><span class='line'>  rbenv rehash
-</span><span class='line'>  bundle install
-</span><span class='line'>  rake install</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    ruby --version
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Deploying to Github Pages</li>
-</ol>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This will Ask you for your Github Pages repository url.</p>
+<blockquote><p>If it doesnt show Ruby 1.9.3, then again repeat the step 2 and 3.
+Install dependencies</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
-</span><span class='line'>  rake deploy
-</span><span class='line'>  git add .
-</span><span class='line'>  git commit -m 'your message'
-</span><span class='line'>  git push origin source</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    gem install bundler
+</span><span class='line'>> rbenv rehash
+</span><span class='line'>> bundle install
+</span><span class='line'>> rake install
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Generating ssh key</li>
-</ol>
-
+<blockquote><p>Deploying to Github Pages</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>cd ~/.ssh
-</span><span class='line'>  ssh-keygen -t rsa -C "your_email@example.com"</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    rake setup_github_pages
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Add your ssh key to github
- a) Open your github account
- b) Go to Account Settings
- c) Click &ldquo;SSH Keys&rdquo; on left navigation bar.
- d) Click on &ldquo;Add Key&rdquo;
- f) Now go back to your Terminal, go to Directory &ldquo;.ssh&rdquo;</li>
-</ol>
-
+<blockquote><p>This will Ask you for your Github Pages repository url.</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>cd .ssh</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    rake generate
+</span><span class='line'>> rake deploy
+</span><span class='line'>> git add .
+</span><span class='line'>> git commit -m 'your message'
+</span><span class='line'>> git push origin source
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<pre><code>g) Open "id_rsa.pub" with text editor.
-</code></pre>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>gedit id_rsa.pub</span></code></pre></td></tr></table></div></figure>
-
-
-<pre><code>h) copy the content of the file and paste it in the big box named as "key" on your github account.
-</code></pre>
-
-<ol>
-<li>Test the key</li>
-</ol>
-
+<blockquote><p>Generating ssh key</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ssh -T git@github.com</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    cd ~/.ssh
+</span><span class='line'>> ssh-keygen -t rsa -C "your_email@example.com"
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<p>if you get any prob in future regarding ssh key, like permission denied(public key), then run</p>
+<blockquote><p>Add your ssh key to github
+  a) Open your github account
+  b) Go to Account Settings
+  c) Click &ldquo;SSH Keys&rdquo; on left navigation bar.
+  d) Click on &ldquo;Add Key&rdquo;
+  f) Now go back to your Terminal, go to Directory &ldquo;.ssh&rdquo;</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>add-ssh</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>cd .ssh
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Setting up Blog</li>
-</ol>
+<blockquote><p>  g) Open &ldquo;id_rsa.pub&rdquo; with text editor.</p></blockquote>
 
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>gedit id_rsa.pub
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
+
+
+<blockquote><p>  h) copy the content of the file and paste it in the big box named as &ldquo;key&rdquo; on your github account.
+Test the key</p></blockquote>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    ssh -T git@github.com
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
+
+
+<blockquote><p>if you get any prob in future regarding ssh key, like permission denied(public key), then run</p></blockquote>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    add-ssh
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
+
+
+<blockquote><p>Setting up Blog</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -256,22 +262,24 @@ last step is to publish your page by clicking on button named as &ldquo;publish&
 <span class='line-number'>14</span>
 <span class='line-number'>15</span>
 <span class='line-number'>16</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git init
-</span><span class='line'>  rake deploy
-</span><span class='line'>  rake generate
-</span><span class='line'>  rake preview
-</span><span class='line'>  git add .
-</span><span class='line'>  git remote show origin
-</span><span class='line'>  git remote show octopress
-</span><span class='line'>  git remote rm octopress
-</span><span class='line'>  git remote rm origin
-</span><span class='line'>  git remote add origin git@github.com:your_user_name/your_user_name.github.io.git
-</span><span class='line'>  git remote -v
-</span><span class='line'>  git pull origin source
-</span><span class='line'>  git add .
-</span><span class='line'>  git commit -m "comment"
-</span><span class='line'>  git push origin source
-</span><span class='line'>  rake deploy</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>>    git init
+</span><span class='line'>> rake deploy
+</span><span class='line'>> rake generate
+</span><span class='line'>> rake preview
+</span><span class='line'>> git add .
+</span><span class='line'>> git remote show origin
+</span><span class='line'>> git remote show octopress
+</span><span class='line'>> git remote rm octopress
+</span><span class='line'>> git remote rm origin
+</span><span class='line'>> git remote add origin git@github.com:your_user_name/your_user_name.github.io.git
+</span><span class='line'>> git remote -v
+</span><span class='line'>> git pull origin source
+</span><span class='line'>> git add .
+</span><span class='line'>> git commit -m "comment"
+</span><span class='line'>> git push origin source
+</span><span class='line'>> rake deploy
+</span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
 
