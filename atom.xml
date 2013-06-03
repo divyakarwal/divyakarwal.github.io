@@ -4,7 +4,7 @@
   <title><![CDATA[Divya's Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-06-03T13:29:35+05:30</updated>
+  <updated>2013-06-03T13:33:57+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Divya Karwal]]></name>
@@ -18,17 +18,18 @@
     <link href="http://divyakarwal.github.io/blog/2013/06/03/how-to-set-up-octopress-blog/"/>
     <updated>2013-06-03T11:43:00+05:30</updated>
     <id>http://divyakarwal.github.io/blog/2013/06/03/how-to-set-up-octopress-blog</id>
-    <content type="html"><![CDATA[<p>First of all sign up on github
-1. click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.
-2. write your user_name.github.io in the field &ldquo;Repository name&rdquo;
-3. click on green color button &ldquo;Create repository&rdquo;
-4. now scroll down and click on button &ldquo;automatic page generator&rdquo;
-5. click on &ldquo;continue to layouts&rdquo;
-6. last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</p>
+    <content type="html"><![CDATA[<p>First of all sign up on github</p>
+
+<blockquote><p>click on &ldquo;create a new repo&rdquo; icon on right hand side upper corner.
+write your user_name.github.io in the field &ldquo;Repository name&rdquo;
+click on green color button &ldquo;Create repository&rdquo;
+now scroll down and click on button &ldquo;automatic page generator&rdquo;
+click on &ldquo;continue to layouts&rdquo;
+last step is to publish your page by clicking on button named as &ldquo;publish&rdquo;</p>
 
 <p>To set-up a blog on octopress if You are using Linux platform then you need to follow the steps below:</p>
 
-<blockquote><p>Install git.</p></blockquote>
+<p>Install git.</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -56,10 +57,7 @@
 </span><span class='line'>></span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Now you have installed RVM, the next task is to install Ruby1.9.3</li>
-</ol>
-
+<blockquote><p>Now you have installed RVM, the next task is to install Ruby1.9.3</p></blockquote>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
