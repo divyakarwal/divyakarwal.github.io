@@ -4,7 +4,7 @@
   <title><![CDATA[Divya's Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-06-03T16:14:20+05:30</updated>
+  <updated>2013-06-03T16:18:23+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Divya Karwal]]></name>
@@ -301,7 +301,7 @@
     <updated>2013-05-30T11:55:00+05:30</updated>
     <id>http://divyakarwal.github.io/blog/2013/05/30/first-blog</id>
     <content type="html"><![CDATA[<p><img src="http://placekitten.com/890/280">
-<img class="file:///{{ root_url" src="}}/_posts/1.jpg/890/280"></p>
+<img src="file:///home/iic/octopress/source/_posts/1.jpg/890/280"></p>
 ]]></content>
   </entry>
   
