@@ -7,7 +7,7 @@ $subtitle-color: lighten($header-bg, 58);
 $nav-bg: desaturate(lighten( #FFE4C4, 18), 5);
 //$nav-bg-front: image-url('noise.png');
 //$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
-$sidebar-bg: desaturate(  #FFEBE0, 8);
+$sidebar-bg: desaturate( #FFD6AD, 8);
 $sidebar-link-color: saturate(#8B0000, 10);
 $sidebar-link-color-hover: darken(#E9967A, 9);
 $footer-bg:#800000 //#ccc //!default;
