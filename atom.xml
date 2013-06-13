@@ -4,7 +4,7 @@
   <title><![CDATA[Divya's Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-06-13T11:09:42+05:30</updated>
+  <updated>2013-06-13T11:22:21+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Divya Karwal]]></name>
@@ -282,7 +282,17 @@
     <updated>2013-05-31T12:53:00+05:30</updated>
     <id>http://divyakarwal.github.io/blog/2013/05/31/memories</id>
     <content type="html"><![CDATA[<p>Here I am presenting this video which i made with my friend Geet, On the ocassion of  our graduation farewell..
-<video width='100' height='100' preload='none' controls poster='http://swatisrivastav.blogspot.in/2013/01/sweet-memories-of-my-college-life.html'><source src='http://www.youtube.com/watch?v=mbs1PFWADgo' ></video></p>
+ &lt;!DOCTYPE html>
+<html>
+<body></p>
+
+<iframe width="420" height="345"
+src="http://www.youtube.com/embed/mbs1PFWADgo">
+</iframe>
+
+
+<p></body>
+</html></p>
 ]]></content>
   </entry>
   
