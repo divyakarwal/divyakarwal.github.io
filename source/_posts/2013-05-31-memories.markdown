@@ -6,7 +6,8 @@ comments: true
 categories: 
 ---
 Here I am presenting this video which i made with my friend Geet, On the ocassion of  our graduation farewell..
- 
+ {% video http://www.youtube.com/embed/7QiEipCUxic 640 320 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}
+
 <html>
 <body>
 
