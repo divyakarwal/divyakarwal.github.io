@@ -10,7 +10,7 @@ Here I am presenting this video which i made with my friend Geet, On the ocassio
 <html>
 <body>
 
-<iframe 
+<iframe width="720" height="350"
 src="http://www.youtube.com/embed/7QiEipCUxic">
 </iframe>
 
