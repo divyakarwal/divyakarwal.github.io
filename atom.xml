@@ -4,7 +4,7 @@
   <title><![CDATA[Divya's Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-06-15T16:36:12+05:30</updated>
+  <updated>2013-06-15T16:38:43+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Divya Karwal]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hello]]></title>
+    <link href="http://divyakarwal.github.io/blog/2013/06/15/hello/"/>
+    <updated>2013-06-15T16:38:00+05:30</updated>
+    <id>http://divyakarwal.github.io/blog/2013/06/15/hello</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to set-up Octopress Blog]]></title>
