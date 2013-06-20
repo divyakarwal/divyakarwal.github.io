@@ -4,7 +4,7 @@
   <title><![CDATA[Divya's Blog]]></title>
   <link href="http://divyakarwal.github.io/atom.xml" rel="self"/>
   <link href="http://divyakarwal.github.io/"/>
-  <updated>2013-06-19T13:14:30+05:30</updated>
+  <updated>2013-06-20T18:03:26+05:30</updated>
   <id>http://divyakarwal.github.io/</id>
   <author>
     <name><![CDATA[Divya Karwal]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Responsive Web Designing]]></title>
+    <link href="http://divyakarwal.github.io/blog/2013/06/20/responsive-web-designing/"/>
+    <updated>2013-06-20T17:36:00+05:30</updated>
+    <id>http://divyakarwal.github.io/blog/2013/06/20/responsive-web-designing</id>
+    <content type="html"><![CDATA[<p>Responsive Web Designing (RWD) is one of the approach to design Web or your Website.
+A responsive web design refers to a website design that responds appropriately to various dimension of the screen.
+By RWd there is no need to design your web page uniquely for different devices of diiferent dimensions, the only thing you need is to design your website responsive.
+Responsive site adjust according to the dimensions of the device the displays web page accordingly.
+Responsive sites looks good also on ur cell phones unlike previous days where text overlaps due to static designs.
+To learn more you can try web designing using <a href="http://twitter.github.io/bootstrap/"> Bootstrap </a>
+Here&rsquo;s an example of Responsive Design.
+<img src=""http://rack.0.mshcdn.com/media/ZgkyMDEyLzEyLzE5LzYzL21hc2hhYmxlcmVzLmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/297e3a40/91c/mashable-responsive-design.jpg""></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hello]]></title>
