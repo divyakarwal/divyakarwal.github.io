@@ -37,7 +37,7 @@ _Mentors_
 1.Manas Ranjan Kar(manasrkar.nmims@gmail.com)  
 Interacted with him over facebook chat, had introduction there and discussed about the tools we know and what we dont know.
 Data sets required, which we dont have yet and how we will get them.
-Hopefully we will be having a meeting on 22nd,june @UDSC.
+Hopefully we will be having a meeting on 22nd,june @UDSC.  
 2.Anika Gupta (anikagupta85@gmail.com)  
 Mailed her about the project and data sets requirement and She just acknowledgeed our 	mail, no further conversation till now
 	
