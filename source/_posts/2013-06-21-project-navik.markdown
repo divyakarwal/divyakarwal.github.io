@@ -55,20 +55,19 @@ Average cost to export.
 _TEAM_
 
 Idea Persons:  
-
-	 Ashish Kakkar (ashish.wsd@nic.in )  
-	 Sitansu S Mahapatra   
+		Ashish Kakkar (ashish.wsd@nic.in )
+		Sitansu S Mahapatra
 
 Mentors:   
 
-	Manas Ranjan Kar(manas.kar@smartmandate.com)  
-	Anika Gupta(anikagupta85@gmail.com)  
+		Manas Ranjan Kar(manas.kar@smartmandate.com)  
+		Anika Gupta(anikagupta85@gmail.com)  
 
 Developers:  
 
-	Abhishek Kapoor(abhishek.kapoor@iic.ac.in)  
-	Divya Karwal(divya.karwal@iic.ac.in)  
-       	Tanu Mittal(tanu.mittal@iic.ac.in)
+		Abhishek Kapoor(abhishek.kapoor@iic.ac.in)
+		Divya Karwal(divya.karwal@iic.ac.in)  
+		Tanu Mittal(tanu.mittal@iic.ac.in)
   
 
 
