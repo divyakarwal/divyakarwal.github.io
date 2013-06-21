@@ -13,3 +13,4 @@ Responsive sites looks good also on ur cell phones unlike previous days where te
 To learn more you can try web designing using <a href="http://twitter.github.io/bootstrap/"> Bootstrap </a>
 Here's an example of Responsive Design.
 {% img "http://rack.0.mshcdn.com/media/ZgkyMDEyLzEyLzE5LzYzL21hc2hhYmxlcmVzLmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/297e3a40/91c/mashable-responsive-design.jpg" %}
+
