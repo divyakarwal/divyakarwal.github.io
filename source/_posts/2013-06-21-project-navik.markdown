@@ -13,7 +13,7 @@ categories:
 * Average time required for export
 * Number of documents required for export
 * Average cost to export  
-**DATA SETS**
+**DATA SETS**  
 Available  
 	Data of Goods and their ITCHS codes
 Other reqiurements  
@@ -29,17 +29,17 @@ Other reqiurements
 **STATUS**
 
 _Data_  
-	Got data from “dgft.gov.in” about ITC(HS) codes and their Description  
-	We are currently working on populating Database from excel sheets.  
+Got data from “dgft.gov.in” about ITC(HS) codes and their Description  
+We are currently working on populating Database from excel sheets.  
 
 _Mentors_  
 
 1.Manas Ranjan Kar(manasrkar.nmims@gmail.com)  
-	Interacted with him over facebook chat, had introduction there and discussed about the tools   	we know and what we dont know.
-	Data sets required, which we dont have yet and how we will get them.
-	Hopefully we will be having a meeting on 22nd,june @UDSC.
+Interacted with him over facebook chat, had introduction there and discussed about the tools we know and what we dont know.
+Data sets required, which we dont have yet and how we will get them.
+Hopefully we will be having a meeting on 22nd,june @UDSC.
 2.Anika Gupta (anikagupta85@gmail.com)  
-	Mailed her about the project and data sets requirement and She just acknowledgeed our 	mail, no further conversation till now
+Mailed her about the project and data sets requirement and She just acknowledgeed our 	mail, no further conversation till now
 	
 
 **APPLICATION DEVELOPMENT**
@@ -54,14 +54,16 @@ Average cost to export.
 
 _TEAM_
 
-Idea Persons: Ashish Kakkar (ashish.wsd@nic.in )  
+Idea Persons:  
+	 Ashish Kakkar (ashish.wsd@nic.in )  
 	          Sitansu S Mahapatra   
 
-Mentors: 
-Manas Ranjan Kar(manas.kar@smartmandate.com)  
+Mentors:   
+	Manas Ranjan Kar(manas.kar@smartmandate.com)  
 	    Anika Gupta(anikagupta85@gmail.com)  
 
-Developers: Abhishek Kapoor(abhishek.kapoor@iic.ac.in)  
+Developers:   
+Abhishek Kapoor(abhishek.kapoor@iic.ac.in)  
 	     Divya Karwal(divya.karwal@iic.ac.in)  
       Tanu Mittal(tanu.mittal@iic.ac.in)
   
