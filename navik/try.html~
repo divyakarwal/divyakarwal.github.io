@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="/home/iic/bootstrap/css/bootstrap.css">
+</head>
+<script src="/home/iic/bootstrap/js/bootstrap.js">
+</script>
+<div class="row">
+	<div class="span4">hello I AM DIVYA KARWAL FROM IIC , UDSC.</div>
+    	<div class="span3 offset2">how ARE YOU???</div>
+</div>
+</html>
